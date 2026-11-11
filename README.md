@@ -12,7 +12,7 @@ Quick note before anything else: there is nothing to install yet. What lives her
 ---
 
 <details>
-<summary><h2>秉微｜Chinese</h2></summary>
+<summary><h2>秉微｜中文</h2></summary>
   
 ## 项目简介
 
