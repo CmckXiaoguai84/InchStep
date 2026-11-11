@@ -116,3 +116,124 @@
 ---
 
 这份文档和里面的想法随便用，不用署名；代码的许可等真有代码了再说  (・ω・)ノ
+
+---
+---
+---
+# InchStep｜秉微
+
+A task reminder app that's still just a design.
+
+Quick note before anything else: there is nothing to install yet. What lives here is a pile of ideas that keeps changing. I wrote this page so anyone landing on this repo can tell what I'm thinking about, how far I've got, and how many holes are still unfilled.
+
+## Why I'm Making This
+
+It started with something small, which turned out to be a bigger problem the more I thought about it.
+
+Most to-do apps give you exactly two options: Done / Not done. Real life is nowhere near that tidy. You might get 60% of a task done because you ran out of time, because it was too hard, because you got distracted, or simply because you felt awful. Hit "Done" and you know you're lying to yourself — guilt +1. Hit "Not done" and a whole afternoon of effort gets wiped out by one button — sense of failure +114514 (yes, that number is a joke). Either way you lose (. _ .)
+
+I also think the Duolingo-ish "someone notices when you do the thing" feedback, a little character hanging around, and animations that aren't just a lazy ding, could make sticking with something less miserable. Add a bit of tidying up of what you've done, and one day you look back and go: oh, I've actually come quite a way (￣▽￣)
+
+So there are two plain things I'd like to try:
+
+**One: bring every task to a clear ending.** Even if it isn't finished, honestly write down how much got done and why it stopped. No scores, no verdicts.
+**Two: give some positive feedback.** Cheer loudly on good days, say something specific and kind on bad days instead of just shouting "you got this"; and turn the records into something readable, so you can see what's actually lying along the road behind you.
+
+A few planks of the idea, in no particular order (this list will probably grow):
+
+- A reminder at the due time that demands an explicit choice, so it can't quietly slip away;
+- A 1–100% progress scale instead of a binary checkbox;
+- A mascot that says a few human sentences based on your own records;
+- A timeline that keeps the traces of what you did;
+- Jot things down as you go, tidy them up as you go;
+- Plug in an AI model for more detailed feedback;
+- ...
+
+None of this is built yet. Most of it hasn't even started; it's being developed very slowly. Full disclosure: I'm a hobbyist tinkering with AI help in whatever spare time I have, so progress really is slow. This is just a hobby (OvO)
+
+Because I'm not after anything, I don't plan to charge for it. Even when AI or other cloud services get involved, your money goes straight to the provider — I won't add a margin in the middle. The App Store side is the headache: Apple takes a cut, and I haven't figured out a compliant way to arrange that yet. Still researching ╮(￣▽￣"")╭
+
+## What's in the Name
+
+First, the name — and why I take the word "consistency" so loosely.
+
+**秉微 (Bingwei)**: 秉 means to hold something in your hand, and also to hold onto it, to keep it until it becomes part of your character; 微 is a tiny bit of light. Together: *hold a little light until it becomes your nature*. It doesn't have to be bright. It just has to keep going.
+**InchStep**: one inch, one step. No big strides required; an inch still counts.
+
+I don't think anything you actually stick with comes from one heroic day. It comes from tiny daily bits, plus looking back now and then and banking what you learned. So I'm willing to define "consistency" very generously:
+
+- You did one very small thing today. That counts.
+- You did it today, forgot tomorrow, remembered again the day after. That counts too.
+- You failed today and gave up, but the little fire inside didn't go out. A while later, stubborn, you picked the task back up. That counts too.
+- You did nothing all day, but it stayed in the back of your mind and other things got in the way. I still count that.
+
+I define it this way because I genuinely don't believe anyone can keep that many things going at once. Anything that lasts probably has to start very, very small — ideally inside your comfort zone, or right at its edge. Reach too far on day one and it usually doesn't survive the week. The 1–100% scale, and "you don't have to hit 100% to count as done", both grew out of this.
+
+In the end I just want to offer a bit of direction to people who, like me, tend to lose their way halfway — people who overthink, who beat themselves up before they even start or after they fail (◐‿◑)
+
+## What I'd Like It to Do
+
+What follows is **what I plan to build**, not **code that already exists**:
+
+- **Tasks and reminders**: create / edit / delete / list, four-quadrant sorting, a few preset cards; local notifications at the due time with "Start" / "Later" / "Skip"; opening the app takes you to a full-screen confirmation that makes you give an answer.
+- **Progress records**: a 1–100% slider, plus an in-between state between "done" and "not done" — something like "I did it... but not all the way". You can also set a **target percentage** for a task: reaching it counts as meeting the goal, because plenty of things were never meant to be finished 100%. If you fall short, pick a reason (not enough time / too hard / custom) and get asked whether you want a follow-up reminder.
+- **In progress and daily wrap-up**: timestamp-based timing, pause, finish early; the daily wrap-up only does simple numbers like tasks completed and average progress — no fancy dashboards.
+- **Feedback that only records**: the early points-and-shop design is gone. A task shouldn't have a price tag; hobbies tend to go stale once money gets attached. Instead: achievements, a growth timeline, conditional unlocks, and preset mascot lines. Recorded, never redeemed.
+- **Permissions and quiet mode**: onboarding for notifications, exact alarms and battery optimisation; quiet mode drops the music and the bouncing animations, so you don't die of embarrassment on a crowded train.
+- **Local first**: tasks and records live on the device by default, with JSON export; journaling and anything AI-related touch privacy and aren't settled yet.
+- **Fancy animations**: I'd like nice reminder pop-ups, an intro and a launch animation. Right now those assets exist mostly in my head and in text drafts.
+- **Mascot / AI companion**: I plan to write a lot of situations and conditions for it so the company doesn't repeat itself. More detailed, personal content would need AI — and that one costs your own money.
+
+Definitely not built yet: the full task-flow state machine, a focus timer, journaling, AI chat, cloud sync, the growth timeline, iOS Live Activity, an intro animation video... (my head already hurts just writing this list) (╯°Д°）╯︵ /(.□ . ＼)
+
+The stack is tentatively React Native + Expo + TypeScript (Expo Router, expo-notifications, expo-sqlite, Zustand, EAS Build). Platform order: iOS first, then Android and Huawei (HarmonyOS), and eventually macOS / Windows / Linux desktop. Yes, the ambition is a bit much — I'd like to cover everyone, even though the first platform doesn't even run yet (⁎⁍̴̛ᴗ⁍̴̛⁎)
+
+## Installing and Running
+
+### Installing
+
+Not written yet... because there is genuinely nothing to install.  (･ _ ･;
+
+### Running
+
+Also nope... still slowly building it. When it actually runs, I'll paste the commands here.  (｀・ω・´)ゞ
+
+(Serious version: there is no runnable code, no `package.json`, and no installable build. The Expo `npm install` / `npx expo start` flow is only a plan, unverified — please don't type it in yet.)
+
+## Known Limitations
+
+Honestly, there are more problems than progress:
+
+- **Mostly ideas and drafts, not software.** No installable build, no tests, no release plan or timeline. The checked "implemented" items in early design drafts were a wish list, not real progress.
+- **The internal drafts still contradict each other.** Early versions still contain the abandoned points/shop design; whether a task may cross midnight, whether it keeps nudging after it's overdue, and how extra time is counted are described differently in different notes; the task state machine, task-instance model and notification scheduling strategy are all still undecided. (These are my own unorganised design notes, not files in this repo.)
+- **The platforms are stricter than I imagined.** iOS doesn't let third-party apps take over the screen when not in the foreground, and notifications can be swiped away, so "it won't disappear until you choose" is impossible; the fallback is actionable notifications plus a mandatory choice after opening. Background timing relies on timestamps and pre-scheduled notifications and isn't guaranteed to be exact. Android's full-screen intents and exact alarms are also constrained by OS version and store policy.
+- **Some ideas may sit on the list for a long time.** Journaling, AI chat and cloud sync involve privacy, cost and platform rules, so they're unlikely to be in the first version. The mascot's "memory" is still just an idea about local records plus template stitching — there is no little fairy actually living in your phone.
+- **Name and licensing aren't settled.** The title is up there and I even explained it at length above, but I haven't checked store names or trademarks, so it may have to change one day. The code's open-source licence, the privacy policy, and how to keep the AI feature compliant are all open questions.
+- **Updates happen whenever they happen.** This is a non-commercial personal project, so updates drift with my work and life, and replies can be slow — I really am busy, but I'll try to make time!!! (￣^￣)ゞ
+
+## Feedback and Contributions
+
+If something reads wrong, contradicts something else, or strikes you as a design that only makes things more complicated, please say so. Even fixing a typo or pointing out a stale sentence helps. Anything goes; this project is wide open.
+
+And if you like the idea and think "I could build this better myself" — please do, take the idea and make your own version. If you even make money from it, great. This document and the ideas in it are free to use; you don't need to ask me or credit me. Don't worry about me, I'm not making any money from this anyway～ (●°u°●)
+
+There's no formal contribution process, no `CONTRIBUTING.md`, no CI, and no issue templates. Open an issue, leave a comment, send a paragraph of thoughts — no need to worry about format. I can't promise every suggestion gets adopted, but I'll read and reply properly, and anything adopted will be credited in the documents.
+
+## One Last Thing
+
+When you're overthinking and can't get moving, stop thinking and second-guessing and just start — even if it's only a tiny bit.
+
+As the *Tao Te Ching* says: **"Those who force things ruin them; those who hold on lose them."** Forcing it tends to fail — that's our over-ambitious goals. Gripping too tight tends to lose it — that's chewing on one task until you're too anxious to even begin.
+So don't try to force yourself into discipline; I certainly can't. Let it follow its own course, and your own.
+
+— **"A tree you can barely wrap your arms around grew from a tiny shoot; a nine-storey terrace rose from a heap of earth; a journey of a thousand miles begins beneath your feet."** (*Tao Te Ching*, Ch. 64; Chinese: 合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下。)
+
+When everything about a task makes you hesitate, that's probably a sign it's too big. Time to make the first move as small as it can be! <(｀ω´ )>
+
+> **A small disclaimer**: everything above about consistency, the name and the *Tao Te Ching* is just my personal take. It isn't a method, it isn't advice, and it may not fit everyone — some people do much better with sheer grit and discipline, and that's completely fine. If it doesn't taste right, treat it as a bit of fun and keep your own pace. The app won't be deciding whether you "count as consistent", either.
+
+Thanks for reading this far. One serious line to finish: I go by 涓埃爝明, and I'd like to offer what little help I can to whoever needs it. d—(￣3￣)>
+
+---
+
+This document and the ideas in it are free to use, no attribution needed. The licence for the code can wait until there is actually some code.
