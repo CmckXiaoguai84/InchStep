@@ -4,11 +4,17 @@
 
 先说清楚：现在还没有能装的版本，这里放的是一堆还在改的想法。写这份首页，是想让点进来的朋友大概知道我在琢磨什么、走到哪一步了、还有多少坑没填。
 
-<details open>
-<summary><b>中文 · Chinese</b></summary>
 
-<details open>
-<summary><b>项目简介</b></summary>
+A task reminder app that's still just a design.
+
+Quick note before anything else: there is nothing to install yet. What lives here is a pile of ideas that keeps changing. I wrote this page so anyone landing on this repo can tell what I'm thinking about, how far I've got, and how many holes are still unfilled.
+
+---
+
+<details>
+<summary><h2>秉微｜Chinese</h2></summary>
+  
+## 项目简介
 
 起点是一件挺小、但越想越有问题的事：
 
@@ -35,10 +41,7 @@
 
 也正因为不图什么，我不打算收任何费用。就算以后接了 AI，用了云服务等等，你自己的钱也是直接付给厂商，我不在中间加价。苹果上架那块就比较头疼了，平台本身要抽成，具体怎么合规地安排还没想明白，还得研究研究 ╮(￣▽￣"")╭
 
-</details>
-
-<details open>
-<summary><b>名字的深意</b></summary>
+## 名字的深意
 
 先说说名字，以及我为什么把「坚持」这两个字看得特别松。
 
@@ -56,10 +59,7 @@
 
 做这个 App，说到底也只是想给和我一样容易半途迷路的人一点方向，给那些做事情特别容易内耗的人，还没做的时候，或者失败之后又不停自责的人一点方向 (◐‿◑)
 
-</details>
-
-<details open>
-<summary><b>主要功能</b></summary>
+## 主要功能
 
 下面写的是「打算实现的主要功能」，不是「已经写出来的代码」：
 
@@ -76,31 +76,19 @@
 
 技术方向暂定 React Native + Expo + TypeScript（Expo Router、expo-notifications、expo-sqlite、Zustand、EAS Build）。平台顺序打算 iOS 优先，然后 Android、华为（鸿蒙）等，最后是 macOS / Windows / Linux 桌面端——是的，野心不小，想尽量把大家全覆盖，虽然现在连第一个平台都还没跑通 (⁎⁍̴̛ᴗ⁍̴̛⁎)
 
-</details>
+## 安装和使用
 
-<details open>
-<summary><b>安装和使用</b></summary>
-
-<details open>
-<summary><b>安装</b></summary>
+### 安装
 
 还没写呢……因为真的还没有能装的东西  (･ _ ･;
 
-</details>
-
-<details open>
-<summary><b>运行</b></summary>
+### 运行
 
 这个也没有……还在努力开发 ing。等哪天真能跑了，我把命令贴上来  (｀・ω・´)ゞ
 
 （认真版：目前没有可运行的代码、没有 `package.json`，也没有安装包。Expo 那套 `npm install` / `npx expo start` 是计划中的流程，尚未验证。）
 
-</details>
-
-</details>
-
-<details open>
-<summary><b>已知局限性</b></summary>
+## 已知局限性
 
 老实说，现在的问题比进展多：
 
@@ -111,10 +99,7 @@
 - **名字和授权都还没拍板。** 标题虽然写上去了，前面还认认真真解释了一通，但商店名称和商标都还没查，说不定哪天就得改名；代码的开源许可、隐私政策、AI 功能怎么合规，也还没有结论。
 - **更新全看缘分。** 不盈利的个人项目，更新会随我的工作和生活状况飘忽不定，回复也可能很慢——人是真的比较忙，不过会尽量挤时间！！！ (￣^￣)ゞ
 
-</details>
-
-<details open>
-<summary><b>反馈与贡献</b></summary>
+## 反馈与贡献
 
 读到哪里觉得不对、前后打架，或者觉得某个设计纯属把事情搞复杂，都欢迎提出。哪怕只是改个错别字、指出一处过时说法，也很有帮助。说啥都行，这项目很开放。
 
@@ -122,10 +107,7 @@
 
 目前没有正式的贡献流程，没有 `CONTRIBUTING.md`，没有 CI，也没有 Issue 模板。直接提 Issue、留个言、发一段想法都行，不必讲究格式。不敢保证每条建议都采纳，但会认真看、认真回，被采纳的也会在文档里注明来源。
 
-</details>
-
-<details open>
-<summary><b>写在最后</b></summary>
+## 写在最后
 
 想太多、迟迟动不了的时候，就请停下思考与顾虑，开始行动，哪怕只走了一点点。
 
@@ -139,9 +121,9 @@
 
 > **一点免责声明**：这篇 README 里关于坚持、名字和《道德经》的这些说法，全是我个人的想法，不是什么方法论，也不构成任何建议，更不一定适合所有人——有人靠狠劲和纪律走得更好，那也完全没问题。觉得不对味，就当看个乐子，按自己的节奏来就好。这软件也不会替你判断你「算不算坚持」
 
-谢谢你愿意花时间读到这儿，最后正经一下：我是涓埃爝明，愿以绵薄之力，帮到需要的人 d—(￣3￣)>
+谢谢你愿意花时间读到这儿，最后正经一下：我是涓埃爝明，愿以绵薄之力，帮到需要的人
 
-</details>
+d—(￣3￣)>
 
 ---
 
@@ -152,14 +134,9 @@
 ---
 
 <details>
-<summary><b>InchStep｜秉微 · English</b></summary>
+<summary><h2>InchStep｜English</h2></summary>
 
-A task reminder app that's still just a design.
-
-Quick note before anything else: there is nothing to install yet. What lives here is a pile of ideas that keeps changing. I wrote this page so anyone landing on this repo can tell what I'm thinking about, how far I've got, and how many holes are still unfilled.
-
-<details open>
-<summary><b>Why I'm Making This</b></summary>
+## Why I'm Making This
 
 It started with something small, which turned out to be a bigger problem the more I thought about it.
 
@@ -186,10 +163,7 @@ None of this is built yet. Most of it hasn't even started; it's being developed 
 
 Because I'm not after anything, I don't plan to charge for it. Even when AI or other cloud services get involved, your money goes straight to the provider — I won't add a margin in the middle. The App Store side is the headache: Apple takes a cut, and I haven't figured out a compliant way to arrange that yet. Still researching ╮(￣▽￣"")╭
 
-</details>
-
-<details open>
-<summary><b>What's in the Name</b></summary>
+## What's in the Name
 
 First, the name — and why I take the word "consistency" so loosely.
 
@@ -207,10 +181,7 @@ I define it this way because I genuinely don't believe anyone can keep that many
 
 In the end I just want to offer a bit of direction to people who, like me, tend to lose their way halfway — people who overthink, who beat themselves up before they even start or after they fail (◐‿◑)
 
-</details>
-
-<details open>
-<summary><b>What I'd Like It to Do</b></summary>
+## What I'd Like It to Do
 
 What follows is **what I plan to build**, not **code that already exists**:
 
@@ -227,31 +198,19 @@ Definitely not built yet: the full task-flow state machine, a focus timer, journ
 
 The stack is tentatively React Native + Expo + TypeScript (Expo Router, expo-notifications, expo-sqlite, Zustand, EAS Build). Platform order: iOS first, then Android and Huawei (HarmonyOS), and eventually macOS / Windows / Linux desktop. Yes, the ambition is a bit much — I'd like to cover everyone, even though the first platform doesn't even run yet (⁎⁍̴̛ᴗ⁍̴̛⁎)
 
-</details>
+## Installing and Running
 
-<details open>
-<summary><b>Installing and Running</b></summary>
-
-<details open>
-<summary><b>Installing</b></summary>
+### Installing
 
 Not written yet... because there is genuinely nothing to install.  (･ _ ･;
 
-</details>
-
-<details open>
-<summary><b>Running</b></summary>
+### Running
 
 Also nope... still slowly building it. When it actually runs, I'll paste the commands here.  (｀・ω・´)ゞ
 
 (Serious version: there is no runnable code, no `package.json`, and no installable build. The Expo `npm install` / `npx expo start` flow is only a plan, unverified — please don't type it in yet.)
 
-</details>
-
-</details>
-
-<details open>
-<summary><b>Known Limitations</b></summary>
+## Known Limitations
 
 Honestly, there are more problems than progress:
 
@@ -262,10 +221,7 @@ Honestly, there are more problems than progress:
 - **Name and licensing aren't settled.** The title is up there and I even explained it at length above, but I haven't checked store names or trademarks, so it may have to change one day. The code's open-source licence, the privacy policy, and how to keep the AI feature compliant are all open questions.
 - **Updates happen whenever they happen.** This is a non-commercial personal project, so updates drift with my work and life, and replies can be slow — I really am busy, but I'll try to make time!!! (￣^￣)ゞ
 
-</details>
-
-<details open>
-<summary><b>Feedback and Contributions</b></summary>
+## Feedback and Contributions
 
 If something reads wrong, contradicts something else, or strikes you as a design that only makes things more complicated, please say so. Even fixing a typo or pointing out a stale sentence helps. Anything goes; this project is wide open.
 
@@ -273,10 +229,7 @@ And if you like the idea and think "I could build this better myself" — please
 
 There's no formal contribution process, no `CONTRIBUTING.md`, no CI, and no issue templates. Open an issue, leave a comment, send a paragraph of thoughts — no need to worry about format. I can't promise every suggestion gets adopted, but I'll read and reply properly, and anything adopted will be credited in the documents.
 
-</details>
-
-<details open>
-<summary><b>One Last Thing</b></summary>
+## One Last Thing
 
 When you're overthinking and can't get moving, stop thinking and second-guessing and just start — even if it's only a tiny bit.
 
@@ -289,9 +242,9 @@ When everything about a task makes you hesitate, that's probably a sign it's too
 
 > **A small disclaimer**: everything above about consistency, the name and the *Tao Te Ching* is just my personal take. It isn't a method, it isn't advice, and it may not fit everyone — some people do much better with sheer grit and discipline, and that's completely fine. If it doesn't taste right, treat it as a bit of fun and keep your own pace. The app won't be deciding whether you "count as consistent", either.
 
-Thanks for reading this far. One serious line to finish: I go by 涓埃爝明, and I'd like to offer what little help I can to whoever needs it. d—(￣3￣)>
+Thanks for reading this far. One serious line to finish: I go by 涓埃爝明, and I'd like to offer what little help I can to whoever needs it.
 
-</details>
+d—(￣3￣)>
 
 ---
 
