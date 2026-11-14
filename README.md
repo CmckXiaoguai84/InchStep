@@ -275,3 +275,59 @@ d—(￣3￣)>
 This document and the ideas in it are free to use, no attribution needed. The licence for the code can wait until there is actually some code.
 
 </details>
+
+---
+
+<details>
+<summary><h2>项目进程</h2></summary>
+
+## 现在：0.0 alpha｜框架构建
+
+一句话总结：**能打开，不能用。** 
+
+工程的骨架算是搭起来了：Expo SDK 58 / React Native 0.88 / TypeScript 6，`src/app` 下 9 个路由都建好了（全是占位页），SQLite 的 001 迁移、seed 和 EAS dev build 配置也就位，暖米白、墨绿、陶土、大圆角那套视觉基调定下来了。按 V1 的计划，这算模块 1「骨架 + 路由 + 建表」交了作业。
+
+但也就到此为止了。打开之后更像在翻一张静态网页：能看到几张预设卡片，除此之外按钮们集体装死——任务建不了、通知不会响、倒计时不走、完成度拉不动、记录也存不下来。目前唯一稳定可用的功能，是让你看着它，然后意识到它还没做完 (￣▽￣")
+
+| V1 模块 | 状态 |
+| --- | --- |
+| 1 骨架 + 路由 + 建表 | 搭完了 |
+| 2 任务 CRUD + 预设卡片 | 卡片画好了，不能点 |
+| 3 调度器 + 恢复扫描 | 没开始 |
+| 4 到点全屏确认 | 没开始 |
+| 5 进行中 + 时间戳 + 暂停 | 没开始 |
+| 6 完成确认 + 完成度 + 话术 | 没开始 |
+| 7 结算 + 错过批量 | 没开始 |
+| 8 设置权限 + 安静 + 导出 | 没开始 |
+
+顺带对个账：前面「安装和使用」里写的「没有 `package.json`、没有可运行的代码」是更早的状态——现在工程跑得起来了，但**没有能装的版本**这条依旧成立，也没有发布计划和时间表。按计划功能是一块一块往上拼的，每块收尾还得过一遍类型检查和 lint，所以短期内它大概会继续像一张长得比较认真的网页。别急着拿它管正事，先拿它当个进度条看就好 ╮(￣▽￣"")╭
+
+</details>
+
+---
+
+<details>
+<summary><h2>Project Progress</h2></summary>
+
+## Now: 0.0 alpha | Framework Build
+
+One-sentence summary: **It opens, but it doesn't work.** 
+
+The project skeleton is more or less up: Expo SDK 58 / React Native 0.88 / TypeScript 6, all 9 routes under `src/app` are set up (all placeholder pages), the SQLite 001 migration, seed, and EAS dev build configuration are also in place, and the visual direction—warm off-white, ink green, terracotta, and large rounded corners—has been settled. According to the V1 plan, this counts as module 1, "Skeleton + Routing + Table Creation," being handed in.
+
+But that's where it stops. Once opened, it feels more like browsing a static webpage: you can see a few preset cards, but beyond that the buttons all play dead together—tasks can't be created, notifications don't ring, countdowns don't run, completion progress can't be dragged, and records can't be saved. The only stable and usable feature right now is letting you look at it and then realize it isn't finished yet (￣▽￣")
+
+|V1 Module|Status|
+|---|---|
+|1 Skeleton + Routing + Table Creation|Set up|
+|2 Task CRUD + Preset Cards|Cards drawn, but not clickable|
+|3 Scheduler + Recovery Scan|Not started|
+|4 Full-screen Confirmation at Due Time|Not started|
+|5 In Progress + Timestamps + Pause|Not started|
+|6 Completion Confirmation + Completion Rate + Wording|Not started|
+|7 Settlement + Missed Batch|Not started|
+|8 Settings Permissions + Quiet + Export|Not started|
+
+A quick note to keep the record straight: the earlier statement in "Installation and Usage" that there is "no `package.json` and no runnable code" refers to an earlier state—now the project can run, but the point that **there is no installable version** still holds, and there is no release plan or timeline. As planned, features are assembled one block at a time, and each block has to go through type checking and lint when it's wrapped up, so in the short term it will probably continue to look like a webpage that takes itself fairly seriously. Don't rush to use it for real work; for now, just treat it as a progress bar ╮(￣▽￣"")╭
+
+</details>
